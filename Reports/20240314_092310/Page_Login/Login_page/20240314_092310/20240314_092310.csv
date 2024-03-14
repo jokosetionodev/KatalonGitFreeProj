@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_page,Chrome 122.0.0.0,,,14-03-2024 09:23:17,14-03-2024 09:24:02,44.851s,PASSED
+,,,,,,,
+Test Cases/LoginTest,Chrome 122.0.0.0,,,14-03-2024 09:23:17,14-03-2024 09:23:42,25.005s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,14-03-2024 09:23:18,14-03-2024 09:23:23,5.476s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,14-03-2024 09:23:23,14-03-2024 09:23:23,0.213s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 122.0.0.0,,,14-03-2024 09:23:23,14-03-2024 09:23:27,3.315s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 122.0.0.0,,,14-03-2024 09:23:27,14-03-2024 09:23:30,3.161s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/gambar_in_page_login""), 2)",Chrome 122.0.0.0,,,14-03-2024 09:23:30,14-03-2024 09:23:30,0.534s,PASSED
+"setText(findTestObject(""Login Page/FieldUname""), ""standard_user"")",Chrome 122.0.0.0,,,14-03-2024 09:23:30,14-03-2024 09:23:31,0.957s,PASSED
+"setText(findTestObject(""Login Page/FielPass""), ""secret_sauce"")",Chrome 122.0.0.0,,,14-03-2024 09:23:31,14-03-2024 09:23:32,0.948s,PASSED
+"click(findTestObject(""Login Page/BtnLogin""))",Chrome 122.0.0.0,,,14-03-2024 09:23:32,14-03-2024 09:23:35,2.867s,PASSED
+delay(3),Chrome 122.0.0.0,,,14-03-2024 09:23:35,14-03-2024 09:23:38,3.021s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,14-03-2024 09:23:38,14-03-2024 09:23:39,0.816s,PASSED
+delay(2),Chrome 122.0.0.0,,,14-03-2024 09:23:39,14-03-2024 09:23:41,2.028s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,14-03-2024 09:23:41,14-03-2024 09:23:42,1.215s,PASSED
+,,,,,,,
+Test Cases/LoginTest - Negative,Chrome 122.0.0.0,,,14-03-2024 09:23:42,14-03-2024 09:24:02,19.512s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,14-03-2024 09:23:43,14-03-2024 09:23:45,2.399s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,14-03-2024 09:23:45,14-03-2024 09:23:45,0.167s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/index.html"")",Chrome 122.0.0.0,,,14-03-2024 09:23:45,14-03-2024 09:23:50,5.246s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 122.0.0.0,,,14-03-2024 09:23:50,14-03-2024 09:23:53,3.022s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/gambar_in_page_login""), 2)",Chrome 122.0.0.0,,,14-03-2024 09:23:53,14-03-2024 09:23:54,0.423s,PASSED
+"setText(findTestObject(""Login Page/FieldUname""), """")",Chrome 122.0.0.0,,,14-03-2024 09:23:54,14-03-2024 09:23:55,0.911s,PASSED
+"setText(findTestObject(""Login Page/FielPass""), ""secret_sauce"")",Chrome 122.0.0.0,,,14-03-2024 09:23:55,14-03-2024 09:23:56,1.114s,PASSED
+"click(findTestObject(""Login Page/BtnLogin""))",Chrome 122.0.0.0,,,14-03-2024 09:23:56,14-03-2024 09:23:56,0.603s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/errorValidation""), 0)",Chrome 122.0.0.0,,,14-03-2024 09:23:56,14-03-2024 09:23:57,0.523s,PASSED
+delay(3),Chrome 122.0.0.0,,,14-03-2024 09:23:57,14-03-2024 09:24:00,3.019s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,14-03-2024 09:24:00,14-03-2024 09:24:00,0.527s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,14-03-2024 09:24:00,14-03-2024 09:24:02,1.390s,PASSED
