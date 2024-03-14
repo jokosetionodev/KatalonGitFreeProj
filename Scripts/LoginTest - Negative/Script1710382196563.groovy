@@ -27,17 +27,17 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Login Page/gambar_in_page_login'), 2)
 
-WebUI.setText(findTestObject('Login Page/FieldUname'), 'standard_user')
+WebUI.setText(findTestObject('Login Page/FieldUname'), '')
 
 WebUI.setText(findTestObject('Login Page/FielPass'), 'secret_sauce')
 
 WebUI.click(findTestObject('Login Page/BtnLogin'))
 
+WebUI.verifyElementPresent(findTestObject('Login Page/errorValidation'), 0)
+
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 
